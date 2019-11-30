@@ -1,0 +1,13 @@
+[package]
+name = "hello-rust"
+version = "0.1.0"
+authors = ["Chad Stearns <chad@humio.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = "0.12.35"
+tokio-core = "0.1.17"
+futures = "0.1.29"
+reqwest = "0.9.22"
